@@ -9,7 +9,7 @@
           </div>
 
           <div class="links">
-            <a href="/comcis">Comics</a>
+            <a href="{{ route('comics.index') }}">Comics</a>
           </div>
       </div>
   </div>
