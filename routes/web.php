@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/comics', 'ComicController@index');
+Route::resource('comics', 'ComicController');
